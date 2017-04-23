@@ -1,0 +1,251 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+  position: fixed;
+  z-index:1;
+  top:0;
+  left:0;
+
+  width:100%;
+  height:63px;
+
+
+
+  box-shadow: 0px 3px 3px  rgba(0,0,0,0.3);
+}
+li{
+  display: inline-block;
+  float:left;
+
+  margin-top: -8px;
+  padding: 10px;
+}
+#nav-list{
+  margin-top: -15px;
+
+  text-decoration: none;
+
+  color: black;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+}
+#nav-list:hover{
+  color: black;
+}
+nav{
+  float: right;
+
+  padding: 16px;
+}
+.page1{
+  width: 100%;
+  height: 663px;
+  margin-top: -21px;
+
+  background-image: url(img/firstpage.jpeg);
+  background-attachment: fixed;
+
+}
+#typing-effect{
+  padding-top: 240px;
+  padding-left: 40px;
+
+  text-align: center;
+
+  color:white;
+  text-shadow: 2px 2px #616161;
+
+  font-family: 'Handlee', cursive;
+  font-size: 70px;
+  font-weight: bold;
+}
+.page2{
+  width: 100%;
+  height:665px;
+
+  background-image: url(img/white-wood.jpg);
+  background-repeat: repeat-y;
+}
+#profile-pic{
+
+  border-radius: 40%;
+  height: 155px;
+  width: 190px;
+  margin-top: 100px;
+}
+.about-head{
+  font-family: 'Handlee', cursive;
+  font-size: 3em;
+  padding-top: 10px;
+
+  font-weight: bold;
+}
+.about{
+  font-size: 1.9em;
+  padding-top: 20px;
+  font-family: 'Handlee', cursive;
+}
+.page3{
+  width: 100%;
+  height: 663px;
+  margin-top: 0px;
+
+  background-image: url(img/thirdpage.jpeg);
+
+}
+.skills-head{
+  padding-top: 80px;
+  color:#4E342E;
+  text-align: center;
+
+  font-family: 'Handlee', cursive;
+  font-size: 4em;
+
+  font-weight: bold;
+}
+.flip-container {
+  box-shadow: 0px 6px 6px  rgba(0,0,0,0.2);
+
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+}
+
+	.flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 300px;
+	height: 427px;
+}
+
+.flipper {
+	position: relative;
+
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+  -o-transition: 0.6s;
+	transition: 0.6s;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.front {
+  opacity: 0.7;
+
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+
+}
+.back p {
+	position: absolute;
+  color:white;
+
+	padding-top:15px;
+
+	text-align: justify;
+
+  font-family: arial;
+  line-height: 2em;
+}
+.front p {
+  text-align: center;
+  font-size:3em;
+  padding-top: 140px;
+  z-index:100;
+  color: white;
+  font-family: 'Handlee', cursive;
+
+}
+.page4{
+  background-color: white;
+  min-height: 666px;
+  height:auto;
+  width:100%;
+
+}
+.work-head{
+  padding-top: 80px;
+  color:black;
+  text-align: center;
+
+  font-family: 'Handlee', cursive;
+  font-size: 4em;
+
+  font-weight: bold;
+}
+#compname{
+  color:white;
+  font-family: 'Handlee', cursive;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.page5{
+
+  width:100%;
+  height: 663px;
+  margin-top: -20px;
+  background-attachment: fixed;
+}
+.cont-head{
+  padding-top: 80px;
+  color:black;
+  text-align: center;
+
+  font-family: 'Handlee', cursive;
+  font-size: 4.2em;
+
+  font-weight: bold;
+}
+.cont-detail{
+  color: black;
+  text-align: center;
+  padding-top: 80px;
+}
+#cont-detail{
+  font-size: 3.4em;
+  padding-left: 20px;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+#duration{
+  font-size: 0.7em;
+  margin-left: 20px;
+}
+.panel-body{
+  font-family: 'Handlee', cursive;
+  font-size:1.2em;
+}

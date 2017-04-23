@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/port.css">
+    <link rel="stylesheet" href="css/csslib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/csslib/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="js/jslib/angular.min.js" ></script>
+    <script src="js/port.js" charset="utf-8"></script>
+    <script src="js/jslib/jquery.js" charset="utf-8"></script>
+    <script src="js/jslib/typed.js" charset="utf-8"></script>
+    <script src="js/jslib/bootstrap.min.js" charset="utf-8"></script>
+
+  </head>
+  <body ng-app="myapp">
+
+<!--page one-->
+<div class="page1" style="background-image: url(img/firstpage3.jpeg)" id="home">
+    <!--nav bar-->
+    <header>
+
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul style="list-style:none">
+                <li><a href="#home" id="nav-list">Home</a></li>
+                <li><a href="#about" id="nav-list">About</a></li>
+                <li><a href="#skills" id="nav-list">Skills</a></li>
+                <li><a href="#work" id="nav-list">Work</a></li>
+                <li><a href="#contact" id="nav-list">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--page1 content-->
+    <div class="">
+      <h1 id="typing-effect"></h1>
+
+    </div>
+</div>
+<!--page two-->
+<div class="page2" id="about" style="background-image: url(img/seigaiha.png);background-repeat:repeat" ng-controller="cont1">
+  <div class="text-center">
+    <img src="img/user.jpeg" alt="" id="profile-pic">
+  </div>
+  <div class="text-center">
+    <h2 class="about-head">{{h2}}</h2>
+  </div>
+  <div class="text-center container about">
+    <p>I am someone who has a very positive attitude towards all the aspects of life, a strong believe in myself and respect for others. A good listener who is always interested in trying something new.  I like travelling, cooking, dancing, listening music and keep learning new skills.As a professional I am very organized and committed to my work.I believe that team oriented & open door environment leads to success.</p>
+  </div>
+
+</div>
+
+<!--page three-->
+<div class="page3" id="skills" style="background-image: url(img/thirdpage14.jpeg)">
+
+  <div class="skills-head">
+    <p>My Skills</p>
+  </div>
+
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-3">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="margin-left:38px">
+            <div class="flipper">
+                <div class="front" style="background-color:#00BCD4">
+                    <p>HR Operations</p>
+                </div>
+                <div class="back" style="background-color:#00BCD4">
+                    <p class="container-fluid">Taken care of employees from on-boarding till exit. Designed on boarding procedure, handled day to day HR operation like personal file management, attendance &amp; leave management, designing holiday calendar, designed &amp; implemented HR policies &amp; procedures throughout the organisation, work station allocation, email id generation. Handled Payroll by providing input to accounts team &amp; salary disbursement through bank transfer. Designed organisation chart &amp; defined the hierarchy and role description.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="margin-left:20px">
+            <div class="flipper">
+                <div class="front" style="background-color:#FFEB3B">
+                    <p>Recruitment</p>
+                </div>
+                <div class="back" style="background-color:#FFEB3B">
+                    <p class="container-fluid"> Experience in handling end to end recruitment for start-ups as well as mid-size organisation, right from preparing Job description to sourcing profiles, screening, interviewing, final selection, salary negotiation, explaining salary structure, rolling out offer, post offer follow ups. SPOC for placement vendors &amp; managed the agreements. <br> Handled interns’ &amp; contract employees’ data and records.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="margin-left:0px">
+            <div class="flipper">
+                <div class="front" style="background-color:#EF5350">
+                    <p>Employee Relations</p>
+                </div>
+                <div class="back" style="background-color:#EF5350">
+                    <p class="container-fluid"> Helped employees in understanding policies &amp; procedure of the company.Handled employee grievance, conducted employee satisfactions surveys, employee engagement activities, organised events like birthday celebration, annual day celebration, day &amp; overnight outings, sessions of yoga, self-defence &amp; dance for employees.</br> Started programs to bridge the gap between employer &amp; employees. Co-ordinated skill development trainings for employees.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="margin-left:-18px">
+            <div class="flipper">
+                <div class="front" style="background-color:#66BB6A">
+                    <p>Performance Appraisal</p>
+                </div>
+                <div class="back" style="background-color:#66BB6A">
+                    <p class="container-fluid">Designed the manual performance appraisal procedure and later worked on the automation of performance management system right from preparing the require document to the final testing &amp; launch of appraisals, closely involved in entire product/software development life cycle and further in enhancement of product.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!--page four-->
+
+<div class="page4" id="work" style="background-image: url(img/seigaiha.png);background-repeat:repeat">
+
+    <div class="work-head">
+        <p>Work Experience</p>
+    </div class="">
+      <div class="panel-group container" id="myaccordian" style="margin-top:40px;padding-bottom:60px">
+        <div class="panel" style="background-color:#00BCD4;box-shadow: 0px 3px 3px  rgba(0,0,0,0.2);opacity:0.75">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-target="#panel-1" data-toggle="collapse" id="compname"><i class="fa fa-chevron-right " aria-hidden="true"></i> Field EZ Technologies </h3>
+          </div>
+          <div class="panel-collapse collapse" id="panel-1">
+            <div class="panel-body" style="background-color:white">
+                 <p>Duration – Jan 2014 to Aug 2016</p>
+                 <p>Designation – Manager Human Resources</p>
+                 <p>Location - Bangalore</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="background-color:#FFEB3B;box-shadow: 0px 3px 3px  rgba(0,0,0,0.2);opacity:0.75;margin-top:20px">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-target="#panel-2" data-toggle="collapse" id="compname"><i class="fa fa-chevron-right " aria-hidden="true"></i> Endeavour Software Technologies</h3>
+          </div>
+          <div class="panel-collapse collapse" id="panel-2">
+            <div class="panel-body" style="background-color:white">
+                 <p>Duration – Sep 2012 to Jan 2014</p>
+                 <p>Designation – Senior Human Resource Associate</p>
+                 <p>Location - Bangalore</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="background-color:#EF5350;box-shadow: 0px 3px 3px  rgba(0,0,0,0.2);opacity:0.75;margin-top:20px">
+          <div class="panel-heading">
+            <h3 class="panel-title" data-target="#panel-3" data-toggle="collapse" id="compname"><i class="fa fa-chevron-right " aria-hidden="true"></i> Activecubes Solution</h3>
+          </div>
+          <div class="panel-collapse collapse" id="panel-3">
+            <div class="panel-body" style="background-color:white">
+              <p>Duration – Dec 2010 to Sep 2012</p>
+              <p>Designation – Human Resource Officer</p>
+              <p>Location - Bangalore</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="background-color:#66BB6A;box-shadow: 0px 3px 3px  rgba(0,0,0,0.2);opacity:0.75;margin-top:20px" >
+          <div class="panel-heading">
+            <h3 class="panel-title" data-target="#panel-4" data-toggle="collapse" id="compname"><i class="fa fa-chevron-right " aria-hidden="true"></i> Corporate Voice Weber Shandwick</h3>
+          </div>
+          <div class="panel-collapse collapse" id="panel-4">
+            <div class="panel-body" style="background-color:white">
+                 <p>Duration – May 2008 to Dec 2010</p>
+                 <p>Designation – Executive Human Resources</p>
+                 <p>Location - Bangalore</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="background-color:#9C27B0;box-shadow: 0px 3px 3px  rgba(0,0,0,0.2);opacity:0.75;margin-top:20px" >
+          <div class="panel-heading">
+            <h3 class="panel-title" data-target="#panel-5" data-toggle="collapse" id="compname"><i class="fa fa-chevron-right " aria-hidden="true"></i> Ebot IT Services </h3>
+          </div>
+          <div class="panel-collapse collapse" id="panel-5">
+            <div class="panel-body" style="background-color:white">
+                 <p>Duration – Jun 2007 to Dec 2007</p>
+                 <p>Designation – Executive Human Resources</p>
+                 <p>Location - Indore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<!--page five-->
+<div class="page5" id="contact" style="background-image: url(img/firstpage3.jpeg)">
+  <div class="cont-head">
+      <p>Contact Me</p>
+  </div>
+  <div class="cont-detail">
+    <div class="">
+      <i class="fa fa-envelope fa-4x" aria-hidden="true" style="color:#FFEE58"></i>
+      <span id="cont-detail">shweta.a.khare@gmail.com</span>
+    </div>
+    <div class="" style="margin-top:20px">
+       <i class="fa fa-phone fa-4x" aria-hidden="true" style="color:#00796B"></i>
+       <span id="cont-detail"> 9739549731</span>
+    </div>
+    <div class="" style="margin-top:20px">
+       <i class="fa fa-skype fa-4x" aria-hidden="true" style="color:#03A9F4"></i>
+       <span id="cont-detail">shweta.khare24</span>
+    </div>
+    <div class="" style="margin-top:20px">
+       <a href="https://www.linkedin.com/in/shweta-khare-2948264" style="color:black;text-decoration:none" target="blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true" style="color:#01579B"></i>
+       <span id="cont-detail" >Shweta Khare</span></a>
+    </div>
+  </div>
+</div>
+
+  </body>
+<script type="text/javascript">
+  //smooth srcrolling
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+</html>
